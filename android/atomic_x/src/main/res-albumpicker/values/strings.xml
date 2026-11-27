@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="album_picker_all_photos">All Photos</string>
+    <string name="album_picker_all_videos">All Videos</string>
+    <string name="album_picker_all_media">Photos and Videos</string>
+    <string name="album_picker_select_more_photos">Select More Photos</string>
+    <string name="album_picker_go_to_settings">Go to Settings to Enable Permission</string>
+    <string name="album_picker_preview">Preview</string>
+    <string name="album_picker_send">Send</string>
+    <string name="album_picker_select">Select</string>
+    <string name="album_picker_add_caption">Add a caption…</string>
+    <string name="album_picker_take_photo">Take Photo</string>
+    <string name="album_picker_record_video">Record Video</string>
+    <string name="album_picker_original">Original</string>
+    <string name="album_picker_total_size">Total %s</string>
+    <string name="album_picker_video_duration_exceeded">Cannot send videos longer than %d minutes, please reselect</string>
+    <string name="album_picker_i_know">OK</string>
+    <string name="album_picker_original_oversized_blocked">Cannot send original files exceeding %dMB, original selection is not available</string>
+    <string name="album_picker_file_size_exceeded">Cannot send original files larger than %dMB, please reselect</string>
+    <string name="album_picker_max_selection_exceeded">Cannot select more than %d items</string>
+    <string name="album_picker_edit">Edit</string>
+    <string name="album_picker_permission_media_title">Request Album Permission</string>
+    <string name="album_picker_permission_media_description">To help you select photos and videos, please allow us to access your album.</string>
+    <string name="album_picker_permission_storage_title">Request Storage Permission</string>
+    <string name="album_picker_permission_storage_description">To help you select photos and videos, please allow us to access your album.</string>
+    <string name="album_picker_permission_camera_title">Request Camera Permission</string>
+    <string name="album_picker_permission_camera_description">To allow you to take photos and record videos, please grant us camera access.</string>
+</resources>

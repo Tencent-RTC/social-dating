@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "見晚";
+"NSCameraUsageDescription" = "用於拍攝照片傳送訊息以及視訊通話";
+"NSMicrophoneUsageDescription" = "用於錄製語音訊息以及音視訊通話";
+"NSPhotoLibraryAddUsageDescription" = "用於儲存使用者選擇的照片和影片";
+"NSPhotoLibraryUsageDescription" = "用於傳送你選擇的照片和影片";

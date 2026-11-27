@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rounded chevron with the same geometry as the host's `demo_hd_back` (2.85dp stroke, round caps), so the
+     UIKit dialogs' back arrow matches the chat page instead of the thin legacy `uikit_ic_back`. The glyph sits 2dp
+     left of the 24dp box centre so that the dialog's 16dp padding lands it on the chat page's 20dp arrow x. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M12.25,4.75 L5.75,11.83 L12.25,18.91"
+        android:strokeColor="#000000"
+        android:strokeWidth="2.85"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

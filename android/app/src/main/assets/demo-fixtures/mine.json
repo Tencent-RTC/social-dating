@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "dataSource": "demo_mock",
+    "note": "本文件只有假业务字段。头像、昵称、userID 不在本文件中，必须从当前已登录的真实 IM 资料读取；不得用本文件的任何值覆盖 SDK 资料。",
+    "identityFieldsFromIM": [
+      "avatarURL",
+      "nickname",
+      "userID"
+    ]
+  },
+  "mockProfile": {
+    "signature": "周末看展和夜跑，想找个能聊到深夜的人",
+    "city": "深圳",
+    "tags": [
+      {
+        "type": "verified",
+        "text": "@demo_verified"
+      }
+    ],
+    "edit": "@demo_fx_edit"
+  },
+  "wallet": {
+    "label": "@demo_fx_diamond_balance",
+    "balance": "2,680",
+    "promo": "@demo_fx_first_top_up_double",
+    "promoPre": "@demo_fx_up_to_bonus",
+    "promoBonus": "980",
+    "action": "@demo_fx_top_up"
+  },
+  "menuGroups": [
+    [
+      {
+        "id": "privacy",
+        "icon": "",
+        "title": "@demo_fx_privacy_settings",
+        "value": ""
+      },
+      {
+        "id": "notify",
+        "icon": "",
+        "title": "@demo_fx_message_notifications",
+        "value": ""
+      },
+      {
+        "id": "help",
+        "icon": "",
+        "title": "@demo_fx_help_support",
+        "value": ""
+      }
+    ]
+  ]
+}

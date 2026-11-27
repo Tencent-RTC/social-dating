@@ -1,0 +1,35 @@
+platform :ios, '15.0'
+project 'Chat1v1Demo.xcodeproj'
+source 'https://cdn.cocoapods.org/'
+
+target 'Chat1v1Demo' do
+  use_frameworks! :linkage => :static
+  pod 'TUIChatKit', :path => '../TUIChatKit'
+  pod 'TUICallKit/Professional', :path => '../TUICallKit'
+  pod 'AtomicX', :path => '../AtomicX'
+  pod 'TUIHostBase', :path => '../TUIHostBase'
+  pod 'TUIHomeKit', :path => '../TUIHomeKit'
+  pod 'TUIMineKit', :path => '../TUIMineKit'
+  # [1V1] One pinned SDK variant; baseline selected from the existing mini Demo lockfile.
+  pod 'AtomicXCore', '4.3.11'
+  # 4.3.5 has x86_64-only simulator slice; 4.3.11 provides arm64 + x86_64.
+  pod 'RTCRoomEngine/Professional', '4.3.11'
+  pod 'TXIMSDK_Plus_iOS_XCFramework', '9.0.7667'
+  pod 'TXLiteAVSDK_Professional', '13.5.21355'
+  pod 'TUICore', '9.0.7660'
+  pod 'Kingfisher', '8.12.0'
+  pod 'SnapKit', '5.7.1'
+  pod 'SDWebImage', '5.21.7'
+  pod 'AlbumPicker', '1.0.8'
+  pod 'MMKV', '2.4.0'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+    end
+  end
+end

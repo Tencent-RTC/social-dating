@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the host-app string table (home module); edit values here, keep keys identical across languages and with iOS. -->
+<resources>
+        <string name="demo_album">Album</string>
+    <string name="demo_moments">Moments</string>
+    <string name="demo_photo">Photo</string>
+    <string name="demo_they_haven_t_posted_any_moments_yet">They haven\'t posted any moments yet</string>
+    <string name="demo_view_album">View album</string>
+    <string name="demo_match">Match %1$s</string>
+    <string name="demo_video_chat">Video chat</string>
+    <string name="demo_refresh">Refresh</string>
+    <string name="demo_all">All</string>
+    <string name="demo_view_all">View all %1$s</string>
+    <string name="demo_male">Male</string>
+    <string name="demo_female">Female</string>
+    <string name="demo_voice_signature">Voice signature</string>
+    <string name="demo_listen_to_my_voice_s">"Listen to my voice  %1$ss"</string>
+    <string name="demo_like">Like</string>
+    <string name="demo_comment">Comment</string>
+    <string name="demo_go_chat">Chat</string>
+    <string name="demo_no_more_people">No more for now</string>
+    <string name="demo_refresh_failed">Couldn\'t refresh. Please try again.</string>
+    <string name="demo_add_friend">Add friend</string>
+    <string name="demo_already_friends">Already friends</string>
+    <string name="demo_delete_friend">Delete friend</string>
+    <string name="demo_delete_friend_message">Deleting a friend removes them from your friend list.</string>
+    <string name="demo_delete">Delete</string>
+    <string name="demo_icebreaker_hint">Say something to them and start your story</string>
+    <string name="demo_icebreaker_match">Match %1$s</string>
+</resources>

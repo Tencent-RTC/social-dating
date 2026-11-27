@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the host-app string table (home module); edit values here, keep keys identical across languages and with iOS. -->
+<resources>
+        <string name="demo_album">相冊</string>
+    <string name="demo_moments">動態</string>
+    <string name="demo_photo">照片</string>
+    <string name="demo_they_haven_t_posted_any_moments_yet">TA 還沒有發佈過動態</string>
+    <string name="demo_view_album">查看相冊</string>
+    <string name="demo_match">緣分值 %1$s</string>
+    <string name="demo_video_chat">視頻聊聊</string>
+    <string name="demo_refresh">換一批</string>
+    <string name="demo_all">全部</string>
+    <string name="demo_view_all">查看全部%1$s</string>
+    <string name="demo_male">男</string>
+    <string name="demo_female">女</string>
+    <string name="demo_voice_signature">語音簽名</string>
+    <string name="demo_listen_to_my_voice_s">"聽聽我的聲音  %1$ss"</string>
+    <string name="demo_like">點贊</string>
+    <string name="demo_comment">評論</string>
+    <string name="demo_go_chat">去聊天</string>
+    <string name="demo_no_more_people">沒有更多了</string>
+    <string name="demo_refresh_failed">重新整理失敗，請稍後再試</string>
+    <string name="demo_add_friend">加好友</string>
+    <string name="demo_already_friends">已是好友</string>
+    <string name="demo_delete_friend">刪除好友</string>
+    <string name="demo_delete_friend_message">刪除後，對方將從你的好友清單中移除。</string>
+    <string name="demo_delete">刪除</string>
+    <string name="demo_icebreaker_hint">對 TA 說點什麼，開啟你們的故事</string>
+    <string name="demo_icebreaker_match">緣分 %1$s</string>
+</resources>

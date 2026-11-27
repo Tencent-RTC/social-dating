@@ -1,0 +1,3 @@
+<resources>
+    <style name="video_player_theme_fullscreen" parent="Chat1v1_Theme.FullscreenMedia" />
+</resources>

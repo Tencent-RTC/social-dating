@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the host-app string table (mine module); edit values here, keep keys identical across languages and with iOS. -->
+<resources>
+    <string name="demo_scan">Scan</string>
+    <string name="demo_id_city">ID %1$s · %2$s</string>
+    <string name="demo_edit_profile">Edit profile</string>
+    <string name="demo_change_avatar">Change avatar</string>
+    <string name="demo_pick_avatar">Choose an avatar</string>
+    <string name="demo_nickname">Nickname</string>
+    <string name="demo_signature">Signature</string>
+    <string name="demo_gender">Gender</string>
+    <string name="demo_birthday">Birthday</string>
+    <string name="demo_gender_male">Male</string>
+    <string name="demo_gender_female">Female</string>
+    <string name="demo_gender_secret">Secret</string>
+    <string name="demo_edit_nickname">Edit nickname</string>
+    <string name="demo_edit_signature">Edit signature</string>
+    <string name="demo_signature_empty">Not set</string>
+    <string name="demo_profile_save_failed">Could not save, try again</string>
+    <string name="demo_account_id">ID</string>
+    <string name="demo_log_out">Log out</string>
+    <string name="demo_log_out_title">Log out?</string>
+    <string name="demo_log_out_message">You will return to the login page. Sign in again to use messages and calls.</string>
+    <string name="demo_friend_add_rule">Add friends</string>
+    <string name="demo_allow_any">Everyone</string>
+    <string name="demo_need_confirm">Need approval</string>
+    <string name="demo_deny_any">Nobody</string>
+</resources>

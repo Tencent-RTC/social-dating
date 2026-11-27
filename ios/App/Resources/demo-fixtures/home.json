@@ -1,0 +1,2995 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "dataSource": "demo_mock",
+    "note": "首页推荐/附近/新人列出演示数据中的全部 IM 演示账号（见 tools/seed_demo_data.json）；当前登录账号在运行时被过滤，不会出现在自己的首页。资料页的相册、动态是本地示例素材，无推荐、定位或业务后端。",
+    "generatedFor": "chat_1v1 client-only demo"
+  },
+  "sections": [
+    {
+      "id": "recommend",
+      "title": "@demo_fx_recommended",
+      "subtitle": "@demo_recommended_for_you",
+      "cards": [
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "12 分钟前",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "1 小时前",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "20 分钟前",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "5 分钟前",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "28 分钟前",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "今天活跃",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "1 小时前",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "5 小时前",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "12 分钟前",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "2 小时前",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "28 分钟前",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "今天活跃",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "3 分钟前",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "1 小时前",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "5 小时前",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "12 分钟前",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "2 小时前",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "28 分钟前",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "今天活跃",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "3 分钟前",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "1 小时前",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "5 小时前",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        },
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "8 分钟前",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        }
+      ],
+      "altCards": [
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "8 分钟前",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        },
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "5 小时前",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "1 小时前",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "3 分钟前",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "今天活跃",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "28 分钟前",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "2 小时前",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "12 分钟前",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "5 小时前",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "1 小时前",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "3 分钟前",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "今天活跃",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "28 分钟前",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "2 小时前",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "12 分钟前",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "5 小时前",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "1 小时前",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "今天活跃",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "28 分钟前",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "5 分钟前",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "20 分钟前",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "1 小时前",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "12 分钟前",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "title": "@demo_fx_nearby",
+      "subtitle": "@demo_recommended_for_you",
+      "cards": [
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "5 小时前",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "12 分钟前",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "2 小时前",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "20 分钟前",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "3 分钟前",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "1 小时前",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "5 小时前",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "5 分钟前",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "28 分钟前",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "今天活跃",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "1 小时前",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "1 小时前",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        },
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "8 分钟前",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "12 分钟前",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "2 小时前",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "12 分钟前",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "1 小时前",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "5 小时前",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "12 分钟前",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "今天活跃",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "3 分钟前",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "2 小时前",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "28 分钟前",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        }
+      ],
+      "altCards": [
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "28 分钟前",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "2 小时前",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "3 分钟前",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "今天活跃",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "12 分钟前",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "5 小时前",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "1 小时前",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "12 分钟前",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "2 小时前",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "12 分钟前",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "8 分钟前",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        },
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "1 小时前",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "1 小时前",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "今天活跃",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "28 分钟前",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "5 分钟前",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "5 小时前",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "1 小时前",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "刚刚活跃",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "3 分钟前",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "20 分钟前",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "2 小时前",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 分钟前",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "12 分钟前",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "5 小时前",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        }
+      ]
+    },
+    {
+      "id": "newcomer",
+      "title": "@demo_fx_newcomers",
+      "subtitle": "@demo_recommended_for_you",
+      "cards": [
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "今天刚加入",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "昨天加入",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "2 天前加入",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "3 天前加入",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "5 天前加入",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "一周前加入",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "今天刚加入",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "昨天加入",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "2 天前加入",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "3 天前加入",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "5 天前加入",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "一周前加入",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "今天刚加入",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "昨天加入",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "2 天前加入",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "3 天前加入",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "5 天前加入",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "一周前加入",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "今天刚加入",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "昨天加入",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "昨天加入",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "今天刚加入",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "今天刚加入",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "昨天加入",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "3 天前加入",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "昨天加入",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 天前加入",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "今天刚加入",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        },
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "5 天前加入",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        }
+      ],
+      "altCards": [
+        {
+          "fixtureId": "fx_u000001",
+          "displayName": "阿野",
+          "age": 25,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.3,
+          "tags": [
+            "看展",
+            "夜跑"
+          ],
+          "activity": "5 天前加入",
+          "bio": "周末看展和夜跑，想找个能聊到深夜的人",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000001.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+        },
+        {
+          "fixtureId": "fx_wanfeng",
+          "displayName": "晚风有信",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "民谣",
+            "夜跑"
+          ],
+          "activity": "今天刚加入",
+          "bio": "想找个能一起在江边夜跑、聊民谣的人。",
+          "accent": "#E05A8A",
+          "photo": "demo_card_wanfeng",
+          "avatar": "demo_avatar_wanfeng"
+        },
+        {
+          "fixtureId": "fx_youzi",
+          "displayName": "柚子汽水",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.4,
+          "tags": [
+            "探店",
+            "手冲"
+          ],
+          "activity": "3 天前加入",
+          "bio": "周末在找下一家值得打卡的咖啡店。",
+          "accent": "#D0724A",
+          "photo": "demo_card_youzi",
+          "avatar": "demo_avatar_youzi"
+        },
+        {
+          "fixtureId": "fx_shiqi",
+          "displayName": "拾柒",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.8,
+          "tags": [
+            "摄影",
+            "骑行"
+          ],
+          "activity": "昨天加入",
+          "bio": "背着相机骑车绕湖，一圈刚好一卷胶片。",
+          "accent": "#C98B4B",
+          "photo": "demo_card_shiqi",
+          "avatar": "demo_avatar_shiqi"
+        },
+        {
+          "fixtureId": "fx_xiaoman",
+          "displayName": "小满",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "猫派",
+            "咖啡"
+          ],
+          "activity": "3 天前加入",
+          "bio": "家里有两只猫，楼下咖啡店第三杯半价。",
+          "accent": "#4FA6A0",
+          "photo": "demo_card_xiaoman",
+          "avatar": "demo_avatar_xiaoman"
+        },
+        {
+          "fixtureId": "fx_abu",
+          "displayName": "阿布",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.1,
+          "tags": [
+            "吉他",
+            "露营"
+          ],
+          "activity": "昨天加入",
+          "bio": "周末带着吉他去露营，想找人合唱。",
+          "accent": "#4C9A72",
+          "photo": "demo_card_abu",
+          "avatar": "demo_avatar_abu"
+        },
+        {
+          "fixtureId": "fx_xiaweimian",
+          "displayName": "夏未眠",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.2,
+          "tags": [
+            "插画",
+            "看展"
+          ],
+          "activity": "今天刚加入",
+          "bio": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。",
+          "accent": "#B06BD8",
+          "photo": "demo_card_xiaweimian",
+          "avatar": "demo_avatar_xiaweimian"
+        },
+        {
+          "fixtureId": "fx_tangtang",
+          "displayName": "棠棠不吃糖",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "声音控",
+            "烘焙"
+          ],
+          "activity": "今天刚加入",
+          "bio": "正在学一首很旧的歌，也在学做戚风蛋糕。",
+          "accent": "#C86BF5",
+          "photo": "demo_card_tangtang",
+          "avatar": "demo_avatar_tangtang"
+        },
+        {
+          "fixtureId": "fx_yehang",
+          "displayName": "夜航船",
+          "age": 27,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 4.6,
+          "tags": [
+            "电台",
+            "夜猫子"
+          ],
+          "activity": "昨天加入",
+          "bio": "深夜电台主播，白天补觉。",
+          "accent": "#5D8AE8",
+          "photo": "demo_card_yehang",
+          "avatar": "demo_avatar_yehang"
+        },
+        {
+          "fixtureId": "fx_u000010",
+          "displayName": "奶糖不加冰",
+          "age": 21,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 2.8,
+          "tags": [
+            "奶茶",
+            "甜品"
+          ],
+          "activity": "昨天加入",
+          "bio": "冰美式喝不了，奶茶只点三分糖。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000010.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+        },
+        {
+          "fixtureId": "fx_u000011",
+          "displayName": "山野有风",
+          "age": 24,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 6.5,
+          "tags": [
+            "徒步",
+            "吉他"
+          ],
+          "activity": "今天刚加入",
+          "bio": "周末去山里发呆，顺便弹两首跑调的歌。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000011.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+        },
+        {
+          "fixtureId": "fx_u000012",
+          "displayName": "栗子小熊",
+          "age": 18,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.5,
+          "tags": [
+            "校园",
+            "美食"
+          ],
+          "activity": "一周前加入",
+          "bio": "刚上大一，社团、食堂和图书馆三点一线。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000012.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+        },
+        {
+          "fixtureId": "fx_u000013",
+          "displayName": "半夏",
+          "age": 26,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 5.2,
+          "tags": [
+            "美术馆",
+            "看展"
+          ],
+          "activity": "5 天前加入",
+          "bio": "喜欢在美术馆待一下午，出来的时候总会饿。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000013.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+        },
+        {
+          "fixtureId": "fx_u000014",
+          "displayName": "唱针落下",
+          "age": 26,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 8.9,
+          "tags": [
+            "黑胶",
+            "收藏"
+          ],
+          "activity": "3 天前加入",
+          "bio": "收了三百张黑胶，只有一张舍得借人听。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000014.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000014.jpg"
+        },
+        {
+          "fixtureId": "fx_u000015",
+          "displayName": "卷卷不愁",
+          "age": 20,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.9,
+          "tags": [
+            "零食",
+            "探店"
+          ],
+          "activity": "2 天前加入",
+          "bio": "头发天生卷，心情不卷，欢迎来聊零食。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000015.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000015.jpg"
+        },
+        {
+          "fixtureId": "fx_u000016",
+          "displayName": "云朵没有名字",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.6,
+          "tags": [
+            "咖啡馆",
+            "读书"
+          ],
+          "activity": "昨天加入",
+          "bio": "在咖啡馆写论文，在图书馆发呆。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000016.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000016.jpg"
+        },
+        {
+          "fixtureId": "fx_u000017",
+          "displayName": "风跑得比我快",
+          "age": 20,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.6,
+          "tags": [
+            "跑步",
+            "打卡"
+          ],
+          "activity": "今天刚加入",
+          "bio": "每天晚饭前去操场跑五圈，欢迎监督。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000017.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000017.jpg"
+        },
+        {
+          "fixtureId": "fx_u000018",
+          "displayName": "不睡觉的猫",
+          "age": 27,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.3,
+          "tags": [
+            "设计",
+            "现场音乐"
+          ],
+          "activity": "一周前加入",
+          "bio": "白天做设计，晚上逛 livehouse，周末补觉。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000018.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000018.jpg"
+        },
+        {
+          "fixtureId": "fx_u000019",
+          "displayName": "圆框小姐",
+          "age": 24,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 1.3,
+          "tags": [
+            "夜景",
+            "摄影"
+          ],
+          "activity": "5 天前加入",
+          "bio": "在天台看城市亮灯，想把每一盏都记下来。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000019.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000019.jpg"
+        },
+        {
+          "fixtureId": "fx_u000020",
+          "displayName": "下班就关机",
+          "age": 29,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 5.0,
+          "tags": [
+            "徒步",
+            "喝茶"
+          ],
+          "activity": "3 天前加入",
+          "bio": "写代码的间隙喝茶，想找个一起去徒步的搭子。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000020.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000020.jpg"
+        },
+        {
+          "fixtureId": "fx_u000021",
+          "displayName": "小鹿乱撞",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.7,
+          "tags": [
+            "慢热",
+            "聊天"
+          ],
+          "activity": "2 天前加入",
+          "bio": "刚满十九，正在练习不害羞地说「你好」。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000021.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000021.jpg"
+        },
+        {
+          "fixtureId": "fx_u000022",
+          "displayName": "薄荷汽水味",
+          "age": 23,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.7,
+          "tags": [
+            "咖啡",
+            "燕麦拿铁"
+          ],
+          "activity": "昨天加入",
+          "bio": "常驻咖啡馆窗边，点单永远是燕麦拿铁。",
+          "accent": "#C86BF5",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000022.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000022.jpg"
+        },
+        {
+          "fixtureId": "fx_u000023",
+          "displayName": "海盐味的风",
+          "age": 25,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 7.4,
+          "tags": [
+            "日落",
+            "旅行"
+          ],
+          "activity": "今天刚加入",
+          "bio": "喜欢追日落，手机里全是歪的地平线。",
+          "accent": "#5D8AE8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000023.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000023.jpg"
+        },
+        {
+          "fixtureId": "fx_u000024",
+          "displayName": "三分线外",
+          "age": 22,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 2.4,
+          "tags": [
+            "篮球",
+            "健身"
+          ],
+          "activity": "一周前加入",
+          "bio": "球场上话不多，球进了才笑。",
+          "accent": "#E05A8A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000024.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000024.jpg"
+        },
+        {
+          "fixtureId": "fx_u000025",
+          "displayName": "丸子今天开心",
+          "age": 19,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 6.1,
+          "tags": [
+            "游乐园",
+            "过山车"
+          ],
+          "activity": "5 天前加入",
+          "bio": "游乐园年卡持有者，过山车一个都不会放过。",
+          "accent": "#D0724A",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000025.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000025.jpg"
+        },
+        {
+          "fixtureId": "fx_u000026",
+          "displayName": "阿屿",
+          "age": 23,
+          "sex": "m",
+          "city": "深圳",
+          "distanceKm": 1.1,
+          "tags": [
+            "散步",
+            "实习"
+          ],
+          "activity": "3 天前加入",
+          "bio": "实习第二个月，下班后喜欢绕湖散步。",
+          "accent": "#C98B4B",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000026.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000026.jpg"
+        },
+        {
+          "fixtureId": "fx_u000027",
+          "displayName": "秋天的第七片叶",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 4.8,
+          "tags": [
+            "银杏",
+            "秋天"
+          ],
+          "activity": "2 天前加入",
+          "bio": "喜欢踩落叶的声音，银杏黄的时候最开心。",
+          "accent": "#4FA6A0",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000027.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000027.jpg"
+        },
+        {
+          "fixtureId": "fx_u000028",
+          "displayName": "沿江六点",
+          "age": 28,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 8.5,
+          "tags": [
+            "晨跑",
+            "打卡"
+          ],
+          "activity": "昨天加入",
+          "bio": "每天六点沿江跑，想找个一起打卡的人。",
+          "accent": "#4C9A72",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000028.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000028.jpg"
+        },
+        {
+          "fixtureId": "fx_u000029",
+          "displayName": "靠窗第三排",
+          "age": 22,
+          "sex": "f",
+          "city": "深圳",
+          "distanceKm": 3.5,
+          "tags": [
+            "图书馆",
+            "自习"
+          ],
+          "activity": "今天刚加入",
+          "bio": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。",
+          "accent": "#B06BD8",
+          "photo": "https://im.sdk.qcloud.com/download/chat1v1/assets/photos/jianwan_000029.jpg",
+          "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000029.jpg"
+        }
+      ]
+    }
+  ]
+}

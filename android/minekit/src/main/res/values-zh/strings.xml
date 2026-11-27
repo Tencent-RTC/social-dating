@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the host-app string table (mine module); edit values here, keep keys identical across languages and with iOS. -->
+<resources>
+    <string name="demo_scan">扫一扫</string>
+    <string name="demo_id_city">ID %1$s · %2$s</string>
+    <string name="demo_edit_profile">编辑资料</string>
+    <string name="demo_change_avatar">更换头像</string>
+    <string name="demo_pick_avatar">选择头像</string>
+    <string name="demo_nickname">昵称</string>
+    <string name="demo_signature">个性签名</string>
+    <string name="demo_gender">性别</string>
+    <string name="demo_birthday">生日</string>
+    <string name="demo_gender_male">男</string>
+    <string name="demo_gender_female">女</string>
+    <string name="demo_gender_secret">保密</string>
+    <string name="demo_edit_nickname">修改昵称</string>
+    <string name="demo_edit_signature">修改个性签名</string>
+    <string name="demo_signature_empty">未设置</string>
+    <string name="demo_profile_save_failed">保存失败，请重试</string>
+    <string name="demo_account_id">账号</string>
+    <string name="demo_log_out">退出登录</string>
+    <string name="demo_log_out_title">退出登录？</string>
+    <string name="demo_log_out_message">退出后将回到登录页，需要重新登录才能使用消息和通话。</string>
+    <string name="demo_friend_add_rule">加好友</string>
+    <string name="demo_allow_any">允许所有人</string>
+    <string name="demo_need_confirm">需要验证</string>
+    <string name="demo_deny_any">不允许任何人</string>
+</resources>

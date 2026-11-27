@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Jianwan";
+"NSCameraUsageDescription" = "Used to take photos for messages and for video calls.";
+"NSMicrophoneUsageDescription" = "Used for voice messages and audio / video calls.";
+"NSPhotoLibraryAddUsageDescription" = "Used to save the photos and videos you choose.";
+"NSPhotoLibraryUsageDescription" = "Used to send the photos and videos you choose.";

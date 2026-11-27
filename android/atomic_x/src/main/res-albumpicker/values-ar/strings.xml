@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="album_picker_all_photos">جميع الصور</string>
+    <string name="album_picker_all_videos">جميع الفيديوهات</string>
+    <string name="album_picker_all_media">الصور والفيديوهات</string>
+    <string name="album_picker_select_more_photos">اختر المزيد من الصور</string>
+    <string name="album_picker_go_to_settings">انتقل إلى الإعدادات لتفعيل الإذن</string>
+    <string name="album_picker_preview">معاينة</string>
+    <string name="album_picker_send">إرسال</string>
+    <string name="album_picker_select">اختيار</string>
+    <string name="album_picker_add_caption">…أضف وصفًا</string>
+    <string name="album_picker_take_photo">التقاط صورة</string>
+    <string name="album_picker_record_video">تسجيل فيديو</string>
+    <string name="album_picker_original">الأصلية</string>
+    <string name="album_picker_total_size">الإجمالي %s</string>
+    <string name="album_picker_video_duration_exceeded">لا يمكن إرسال مقاطع فيديو أطول من %d دقيقة، يرجى إعادة الاختيار</string>
+    <string name="album_picker_i_know">حسناً</string>
+    <string name="album_picker_original_oversized_blocked">لا يمكن إرسال ملفات أصلية تتجاوز %d ميجابايت، لا يمكن تحديد الأصلية</string>
+    <string name="album_picker_file_size_exceeded">لا يمكن إرسال ملفات أصلية بحجم يتجاوز %d ميجابايت، يرجى إعادة الاختيار</string>
+    <string name="album_picker_max_selection_exceeded">لا يمكن اختيار أكثر من %d عناصر</string>
+    <string name="album_picker_edit">تعديل</string>
+    <string name="album_picker_permission_media_title">طلب إذن الوصول إلى الألبوم</string>
+    <string name="album_picker_permission_media_description">لتسهيل اختيار الصور ومقاطع الفيديو، يرجى السماح لنا بالوصول إلى ألبومك.</string>
+    <string name="album_picker_permission_storage_title">طلب إذن الوصول إلى التخزين</string>
+    <string name="album_picker_permission_storage_description">لتسهيل اختيار الصور ومقاطع الفيديو، يرجى السماح لنا بالوصول إلى ألبومك.</string>
+    <string name="album_picker_permission_camera_title">طلب إذن الوصول إلى الكاميرا</string>
+    <string name="album_picker_permission_camera_description">لتتمكن من التقاط الصور وتسجيل الفيديو، يرجى السماح لنا باستخدام الكاميرا.</string>
+</resources>

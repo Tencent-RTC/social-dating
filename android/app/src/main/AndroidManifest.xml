@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application android:name=".Chat1v1App" android:theme="@style/Chat1v1_Theme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name=".chat.ChatActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".main.MainActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".chat.ChatSettingActivity" android:exported="false" />
+        <activity android:name=".main.SearchActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".login.LoginActivity" android:exported="true" android:theme="@style/Chat1v1_Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

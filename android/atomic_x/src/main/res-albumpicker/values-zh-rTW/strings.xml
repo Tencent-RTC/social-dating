@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="album_picker_all_photos">全部照片</string>
+    <string name="album_picker_all_videos">全部影片</string>
+    <string name="album_picker_all_media">照片和影片</string>
+    <string name="album_picker_select_more_photos">選擇更多照片</string>
+    <string name="album_picker_go_to_settings">前往設定開啟權限</string>
+    <string name="album_picker_preview">預覽</string>
+    <string name="album_picker_send">發送</string>
+    <string name="album_picker_select">選擇</string>
+    <string name="album_picker_add_caption">新增說明…</string>
+    <string name="album_picker_take_photo">拍照</string>
+    <string name="album_picker_record_video">錄影</string>
+    <string name="album_picker_original">原圖</string>
+    <string name="album_picker_total_size">共%s</string>
+    <string name="album_picker_video_duration_exceeded">無法傳送超過%d分鐘的影片，請重新選擇</string>
+    <string name="album_picker_i_know">我知道了</string>
+    <string name="album_picker_original_oversized_blocked">單個檔案超過%dMB無法選擇原圖傳送</string>
+    <string name="album_picker_file_size_exceeded">無法傳送超過%dMB的原圖，請重新選擇</string>
+    <string name="album_picker_max_selection_exceeded">最多只能選擇%d個</string>
+    <string name="album_picker_edit">編輯</string>
+    <string name="album_picker_permission_media_title">申請取得相簿權限</string>
+    <string name="album_picker_permission_media_description">為方便您選擇照片和影片，請允許我們存取您的相簿。</string>
+    <string name="album_picker_permission_storage_title">申請取得儲存權限</string>
+    <string name="album_picker_permission_storage_description">為方便您選擇照片和影片，請允許我們存取您的相簿。</string>
+    <string name="album_picker_permission_camera_title">申請取得相機權限</string>
+    <string name="album_picker_permission_camera_description">為方便您拍攝照片和影片，請允許我們使用您的相機。</string>
+</resources>

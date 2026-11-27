@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "note": "Accounts offered in the login dropdown: avatar - nickname - userID. Seed them into your IM application via tools/seed_demo_data.py (with tools/seed_demo_data.json). name is a string-resource reference."
+ },
+ "presets": [
+  {
+   "userId": "jianwan_000001",
+   "name": "@demo_preset_account_1_name",
+   "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000001.jpg"
+  },
+  {
+   "userId": "jianwan_000010",
+   "name": "@demo_preset_account_2_name",
+   "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000010.jpg"
+  },
+  {
+   "userId": "jianwan_000011",
+   "name": "@demo_preset_account_3_name",
+   "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000011.jpg"
+  },
+  {
+   "userId": "jianwan_000012",
+   "name": "@demo_preset_account_4_name",
+   "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000012.jpg"
+  },
+  {
+   "userId": "jianwan_000013",
+   "name": "@demo_preset_account_5_name",
+   "avatar": "https://im.sdk.qcloud.com/download/chat1v1/assets/avatars/jianwan_000013.jpg"
+  }
+ ]
+}

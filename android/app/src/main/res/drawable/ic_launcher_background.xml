@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 见晚 launcher background: the default palette brand gradient (violet #7C4DFF -> pink #FF4D8D). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:endColor="#FF4D8D"
+        android:startColor="#7C4DFF"
+        android:type="linear" />
+</shape>

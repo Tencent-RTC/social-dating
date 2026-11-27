@@ -1,0 +1,901 @@
+{
+  "assetBase": "https://im.sdk.qcloud.com/download/chat1v1/assets",
+  "loginAccounts": ["jianwan_000001", "jianwan_000010", "jianwan_000011", "jianwan_000012", "jianwan_000013"],
+  "users": [
+    {"userID": "jianwan_000001", "nickname": "阿野", "gender": "m", "signature": "周末看展和夜跑，想找个能聊到深夜的人", "avatar": "avatars/jianwan_000001.jpg"},
+    {"userID": "jianwan_000002", "nickname": "晚风有信", "gender": "f", "age": 24, "signature": "想找个能一起在江边夜跑、聊民谣的人。", "avatar": "avatars/jianwan_000002.jpg"},
+    {"userID": "jianwan_000003", "nickname": "柚子汽水", "gender": "f", "age": 22, "signature": "周末在找下一家值得打卡的咖啡店。", "avatar": "avatars/jianwan_000003.jpg"},
+    {"userID": "jianwan_000004", "nickname": "拾柒", "gender": "m", "age": 26, "signature": "背着相机骑车绕湖，一圈刚好一卷胶片。", "avatar": "avatars/jianwan_000004.jpg"},
+    {"userID": "jianwan_000005", "nickname": "小满", "gender": "f", "age": 25, "signature": "家里有两只猫，楼下咖啡店第三杯半价。", "avatar": "avatars/jianwan_000005.jpg"},
+    {"userID": "jianwan_000006", "nickname": "阿布", "gender": "m", "age": 27, "signature": "周末带着吉他去露营，想找人合唱。", "avatar": "avatars/jianwan_000006.jpg"},
+    {"userID": "jianwan_000007", "nickname": "夏未眠", "gender": "f", "age": 23, "signature": "喜欢民谣和江边的夜跑，寻找能一起看展览的人。", "avatar": "avatars/jianwan_000007.jpg"},
+    {"userID": "jianwan_000008", "nickname": "棠棠不吃糖", "gender": "f", "age": 23, "signature": "正在学一首很旧的歌，也在学做戚风蛋糕。", "avatar": "avatars/jianwan_000008.jpg"},
+    {"userID": "jianwan_000009", "nickname": "夜航船", "gender": "m", "age": 27, "signature": "深夜电台主播，白天补觉。", "avatar": "avatars/jianwan_000009.jpg"},
+    {"userID": "jianwan_000010", "nickname": "奶糖不加冰", "gender": "f", "age": 21, "signature": "冰美式喝不了，奶茶只点三分糖。", "avatar": "avatars/jianwan_000010.jpg"},
+    {"userID": "jianwan_000011", "nickname": "山野有风", "gender": "m", "age": 24, "signature": "周末去山里发呆，顺便弹两首跑调的歌。", "avatar": "avatars/jianwan_000011.jpg"},
+    {"userID": "jianwan_000012", "nickname": "栗子小熊", "gender": "f", "age": 18, "signature": "刚上大一，社团、食堂和图书馆三点一线。", "avatar": "avatars/jianwan_000012.jpg"},
+    {"userID": "jianwan_000013", "nickname": "半夏", "gender": "f", "age": 26, "signature": "喜欢在美术馆待一下午，出来的时候总会饿。", "avatar": "avatars/jianwan_000013.jpg"},
+    {"userID": "jianwan_000014", "nickname": "唱针落下", "gender": "m", "age": 26, "signature": "收了三百张黑胶，只有一张舍得借人听。", "avatar": "avatars/jianwan_000014.jpg"},
+    {"userID": "jianwan_000015", "nickname": "卷卷不愁", "gender": "f", "age": 20, "signature": "头发天生卷，心情不卷，欢迎来聊零食。", "avatar": "avatars/jianwan_000015.jpg"},
+    {"userID": "jianwan_000016", "nickname": "云朵没有名字", "gender": "f", "age": 22, "signature": "在咖啡馆写论文，在图书馆发呆。", "avatar": "avatars/jianwan_000016.jpg"},
+    {"userID": "jianwan_000017", "nickname": "风跑得比我快", "gender": "m", "age": 20, "signature": "每天晚饭前去操场跑五圈，欢迎监督。", "avatar": "avatars/jianwan_000017.jpg"},
+    {"userID": "jianwan_000018", "nickname": "不睡觉的猫", "gender": "f", "age": 27, "signature": "白天做设计，晚上逛 livehouse，周末补觉。", "avatar": "avatars/jianwan_000018.jpg"},
+    {"userID": "jianwan_000019", "nickname": "圆框小姐", "gender": "f", "age": 24, "signature": "在天台看城市亮灯，想把每一盏都记下来。", "avatar": "avatars/jianwan_000019.jpg"},
+    {"userID": "jianwan_000020", "nickname": "下班就关机", "gender": "m", "age": 29, "signature": "写代码的间隙喝茶，想找个一起去徒步的搭子。", "avatar": "avatars/jianwan_000020.jpg"},
+    {"userID": "jianwan_000021", "nickname": "小鹿乱撞", "gender": "f", "age": 19, "signature": "刚满十九，正在练习不害羞地说「你好」。", "avatar": "avatars/jianwan_000021.jpg"},
+    {"userID": "jianwan_000022", "nickname": "薄荷汽水味", "gender": "f", "age": 23, "signature": "常驻咖啡馆窗边，点单永远是燕麦拿铁。", "avatar": "avatars/jianwan_000022.jpg"},
+    {"userID": "jianwan_000023", "nickname": "海盐味的风", "gender": "f", "age": 25, "signature": "喜欢追日落，手机里全是歪的地平线。", "avatar": "avatars/jianwan_000023.jpg"},
+    {"userID": "jianwan_000024", "nickname": "三分线外", "gender": "m", "age": 22, "signature": "球场上话不多，球进了才笑。", "avatar": "avatars/jianwan_000024.jpg"},
+    {"userID": "jianwan_000025", "nickname": "丸子今天开心", "gender": "f", "age": 19, "signature": "游乐园年卡持有者，过山车一个都不会放过。", "avatar": "avatars/jianwan_000025.jpg"},
+    {"userID": "jianwan_000026", "nickname": "阿屿", "gender": "m", "age": 23, "signature": "实习第二个月，下班后喜欢绕湖散步。", "avatar": "avatars/jianwan_000026.jpg"},
+    {"userID": "jianwan_000027", "nickname": "秋天的第七片叶", "gender": "f", "age": 22, "signature": "喜欢踩落叶的声音，银杏黄的时候最开心。", "avatar": "avatars/jianwan_000027.jpg"},
+    {"userID": "jianwan_000028", "nickname": "沿江六点", "gender": "f", "age": 28, "signature": "每天六点沿江跑，想找个一起打卡的人。", "avatar": "avatars/jianwan_000028.jpg"},
+    {"userID": "jianwan_000029", "nickname": "靠窗第三排", "gender": "f", "age": 22, "signature": "图书馆靠窗第三排是我的固定座位，欢迎来蹭。", "avatar": "avatars/jianwan_000029.jpg"}
+  ],
+  "friends": [
+    ["jianwan_000001", "jianwan_000002"],
+    ["jianwan_000001", "jianwan_000003"],
+    ["jianwan_000001", "jianwan_000004"],
+    ["jianwan_000001", "jianwan_000005"],
+    ["jianwan_000001", "jianwan_000006"],
+    ["jianwan_000001", "jianwan_000007"],
+    ["jianwan_000001", "jianwan_000008"],
+    ["jianwan_000001", "jianwan_000009"],
+    ["jianwan_000001", "jianwan_000010"],
+    ["jianwan_000001", "jianwan_000011"],
+    ["jianwan_000001", "jianwan_000012"],
+    ["jianwan_000001", "jianwan_000013"],
+    ["jianwan_000001", "jianwan_000027"],
+    ["jianwan_000001", "jianwan_000028"],
+    ["jianwan_000001", "jianwan_000029"],
+    ["jianwan_000002", "jianwan_000003"],
+    ["jianwan_000002", "jianwan_000004"],
+    ["jianwan_000002", "jianwan_000005"],
+    ["jianwan_000002", "jianwan_000028"],
+    ["jianwan_000002", "jianwan_000029"],
+    ["jianwan_000003", "jianwan_000004"],
+    ["jianwan_000003", "jianwan_000005"],
+    ["jianwan_000003", "jianwan_000006"],
+    ["jianwan_000003", "jianwan_000029"],
+    ["jianwan_000004", "jianwan_000005"],
+    ["jianwan_000004", "jianwan_000006"],
+    ["jianwan_000004", "jianwan_000007"],
+    ["jianwan_000005", "jianwan_000006"],
+    ["jianwan_000005", "jianwan_000007"],
+    ["jianwan_000005", "jianwan_000008"],
+    ["jianwan_000006", "jianwan_000007"],
+    ["jianwan_000006", "jianwan_000008"],
+    ["jianwan_000006", "jianwan_000009"],
+    ["jianwan_000007", "jianwan_000008"],
+    ["jianwan_000007", "jianwan_000009"],
+    ["jianwan_000007", "jianwan_000010"],
+    ["jianwan_000008", "jianwan_000009"],
+    ["jianwan_000008", "jianwan_000010"],
+    ["jianwan_000008", "jianwan_000011"],
+    ["jianwan_000009", "jianwan_000010"],
+    ["jianwan_000009", "jianwan_000011"],
+    ["jianwan_000009", "jianwan_000012"],
+    ["jianwan_000010", "jianwan_000011"],
+    ["jianwan_000010", "jianwan_000012"],
+    ["jianwan_000010", "jianwan_000013"],
+    ["jianwan_000011", "jianwan_000012"],
+    ["jianwan_000011", "jianwan_000013"],
+    ["jianwan_000011", "jianwan_000014"],
+    ["jianwan_000012", "jianwan_000013"],
+    ["jianwan_000012", "jianwan_000014"],
+    ["jianwan_000012", "jianwan_000015"],
+    ["jianwan_000013", "jianwan_000014"],
+    ["jianwan_000013", "jianwan_000015"],
+    ["jianwan_000013", "jianwan_000016"],
+    ["jianwan_000014", "jianwan_000015"],
+    ["jianwan_000014", "jianwan_000016"],
+    ["jianwan_000014", "jianwan_000017"],
+    ["jianwan_000015", "jianwan_000016"],
+    ["jianwan_000015", "jianwan_000017"],
+    ["jianwan_000015", "jianwan_000018"],
+    ["jianwan_000016", "jianwan_000017"],
+    ["jianwan_000016", "jianwan_000018"],
+    ["jianwan_000016", "jianwan_000019"],
+    ["jianwan_000017", "jianwan_000018"],
+    ["jianwan_000017", "jianwan_000019"],
+    ["jianwan_000017", "jianwan_000020"],
+    ["jianwan_000018", "jianwan_000019"],
+    ["jianwan_000018", "jianwan_000020"],
+    ["jianwan_000018", "jianwan_000021"],
+    ["jianwan_000019", "jianwan_000020"],
+    ["jianwan_000019", "jianwan_000021"],
+    ["jianwan_000019", "jianwan_000022"],
+    ["jianwan_000020", "jianwan_000021"],
+    ["jianwan_000020", "jianwan_000022"],
+    ["jianwan_000020", "jianwan_000023"],
+    ["jianwan_000021", "jianwan_000022"],
+    ["jianwan_000021", "jianwan_000023"],
+    ["jianwan_000021", "jianwan_000024"],
+    ["jianwan_000022", "jianwan_000023"],
+    ["jianwan_000022", "jianwan_000024"],
+    ["jianwan_000022", "jianwan_000025"],
+    ["jianwan_000023", "jianwan_000024"],
+    ["jianwan_000023", "jianwan_000025"],
+    ["jianwan_000023", "jianwan_000026"],
+    ["jianwan_000024", "jianwan_000025"],
+    ["jianwan_000024", "jianwan_000026"],
+    ["jianwan_000024", "jianwan_000027"],
+    ["jianwan_000025", "jianwan_000026"],
+    ["jianwan_000025", "jianwan_000027"],
+    ["jianwan_000025", "jianwan_000028"],
+    ["jianwan_000026", "jianwan_000027"],
+    ["jianwan_000026", "jianwan_000028"],
+    ["jianwan_000026", "jianwan_000029"],
+    ["jianwan_000027", "jianwan_000028"],
+    ["jianwan_000027", "jianwan_000029"],
+    ["jianwan_000028", "jianwan_000029"]
+  ],
+  "conversations": [
+    {
+      "between": ["jianwan_000001", "jianwan_000002"],
+      "messages": [
+        ["jianwan_000002", "嗨，看到你也喜欢夜跑，江边那条线你跑过吗？"],
+        ["jianwan_000001", "跑过！晚上八点以后人少，风也舒服。"],
+        ["jianwan_000002", "那周五晚上一起？我带一首最近在写的民谣给你听。"],
+        ["jianwan_000001", "好啊，我带水，跑完去旁边那家夜宵摊。"],
+        ["jianwan_000002", "说定了，到时候江边东门见。"],
+        ["jianwan_000001", "东门见，不见不散。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000003"],
+      "messages": [
+        ["jianwan_000001", "你上次说的那家窗边咖啡店，叫什么来着？"],
+        ["jianwan_000003", "「半糖」，在老街拐角，手冲很稳。"],
+        ["jianwan_000001", "周末想去试试，你有推荐的豆子吗？"],
+        ["jianwan_000003", "点那支浅烘的埃塞，有柑橘味，不酸。"],
+        ["jianwan_000001", "收到，到时候拍照给你看。"],
+        ["jianwan_000003", "好呀，顺便帮我看看他们新出的蛋糕还在不在。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000004"],
+      "messages": [
+        ["jianwan_000004", "上周那卷胶片洗出来了，湖边的日落拍得还行。"],
+        ["jianwan_000001", "发我看看？我一直想学胶片。"],
+        ["jianwan_000004", "下次骑车绕湖你一起来，我教你测光。"],
+        ["jianwan_000001", "太好了，我这周六有空。"],
+        ["jianwan_000004", "那就周六早上七点，趁光线好。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000005"],
+      "messages": [
+        ["jianwan_000001", "你家两只猫今天又干嘛了？"],
+        ["jianwan_000005", "刚把窗帘当成攀岩墙，我在旁边笑得收不住。"],
+        ["jianwan_000001", "哈哈，下次能看视频吗？"],
+        ["jianwan_000005", "可以，还有一只在装睡，其实一直在偷看。"],
+        ["jianwan_000001", "太像人了。"],
+        ["jianwan_000005", "对吧，楼下咖啡店第三杯半价，下次请你。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000006"],
+      "messages": [
+        ["jianwan_000006", "这周末去露营，缺一个会唱歌的，来不来？"],
+        ["jianwan_000001", "我只会唱跑调版本，可以吗？"],
+        ["jianwan_000006", "跑调才有氛围，我带吉他，你带零食。"],
+        ["jianwan_000001", "行，帐篷我来借。"],
+        ["jianwan_000006", "那就这么定了，周六下午出发。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000007"],
+      "messages": [
+        ["jianwan_000001", "听说下周美术馆有一个摄影展，要不要一起？"],
+        ["jianwan_000007", "好呀！我正想看展，看完还能去江边走走。"],
+        ["jianwan_000001", "那周日下午两点门口见？"],
+        ["jianwan_000007", "可以，我顺路带两杯热饮。"],
+        ["jianwan_000001", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000008"],
+      "messages": [
+        ["jianwan_000008", "我今天终于把戚风蛋糕烤成功了，没有塌！"],
+        ["jianwan_000001", "太厉害了，之前不是一直塌腰吗？"],
+        ["jianwan_000008", "这次蛋白打到了硬性发泡，温度也降了十度。"],
+        ["jianwan_000001", "留一块给我，下次见面当面评分。"],
+        ["jianwan_000008", "好，打分要认真哦，还要配茶。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000009"],
+      "messages": [
+        ["jianwan_000001", "昨晚的电台我听了，那首歌放得太合适了。"],
+        ["jianwan_000009", "谢谢，那首我其实纠结了很久才放。"],
+        ["jianwan_000001", "下次可以点歌吗？"],
+        ["jianwan_000009", "可以，把想听的写在留言里，我挑一个深夜播。"],
+        ["jianwan_000001", "好，我也想听你白天补觉的故事。"],
+        ["jianwan_000009", "哈哈，那就留到下一期。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000001", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000010", "嗨阿野，我是奶糖不加冰，看到你也喜欢聊到深夜的那种天。"],
+        ["jianwan_000001", "哈哈，你的签名我也看到了，冰美式真的喝不了吗？"],
+        ["jianwan_000010", "喝一口就心跳加速，奶茶三分糖刚刚好。"],
+        ["jianwan_000001", "那周末请你喝一杯，你选店，我选夜跑路线。"],
+        ["jianwan_000010", "好呀，那就先去喝奶茶，再绕着江边慢慢走。"],
+        ["jianwan_000001", "一言为定，到时候提前告诉我时间。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000002", "jianwan_000003"],
+      "messages": [
+        ["jianwan_000002", "今天中午吃了什么？"],
+        ["jianwan_000003", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000002", "在哪？下次去试试。"],
+        ["jianwan_000003", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000002", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000002", "jianwan_000004"],
+      "messages": [
+        ["jianwan_000002", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000004", "什么类型的？我也想找点书看。"],
+        ["jianwan_000002", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000004", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000002", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000003", "jianwan_000004"],
+      "messages": [
+        ["jianwan_000003", "你有养宠物吗？"],
+        ["jianwan_000004", "没有，但很想养一只猫。"],
+        ["jianwan_000003", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000004", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000003", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000003", "jianwan_000005"],
+      "messages": [
+        ["jianwan_000003", "最近有什么好看的电影吗？"],
+        ["jianwan_000005", "看了一部小成本的，剧情很温柔。"],
+        ["jianwan_000003", "叫什么？"],
+        ["jianwan_000005", "回头发你片名，适合安静的晚上看。"],
+        ["jianwan_000003", "好，我周五晚上就看。"],
+        ["jianwan_000005", "看完告诉我你的感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000004", "jianwan_000005"],
+      "messages": [
+        ["jianwan_000004", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000005", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000004", "周末一般都怎么过？"],
+        ["jianwan_000005", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000004", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000005", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000004", "jianwan_000006"],
+      "messages": [
+        ["jianwan_000004", "晚上好，今天过得怎么样？"],
+        ["jianwan_000006", "有点累，不过下班路上看到了很好看的晚霞。"],
+        ["jianwan_000004", "拍下来了吗？"],
+        ["jianwan_000006", "拍了，晚点发你。"],
+        ["jianwan_000004", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000005", "jianwan_000006"],
+      "messages": [
+        ["jianwan_000005", "你平时周末会去运动吗？"],
+        ["jianwan_000006", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000005", "太自律了，我只坚持了三天。"],
+        ["jianwan_000006", "找个人一起打卡会容易很多。"],
+        ["jianwan_000005", "那我们互相监督吧！"],
+        ["jianwan_000006", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000005", "jianwan_000007"],
+      "messages": [
+        ["jianwan_000005", "今天中午吃了什么？"],
+        ["jianwan_000007", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000005", "在哪？下次去试试。"],
+        ["jianwan_000007", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000005", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000006", "jianwan_000007"],
+      "messages": [
+        ["jianwan_000006", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000007", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000006", "那就绕着湖走一圈。"],
+        ["jianwan_000007", "好，十分钟后楼下见。"],
+        ["jianwan_000006", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000006", "jianwan_000008"],
+      "messages": [
+        ["jianwan_000006", "你有养宠物吗？"],
+        ["jianwan_000008", "没有，但很想养一只猫。"],
+        ["jianwan_000006", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000008", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000006", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000007", "jianwan_000008"],
+      "messages": [
+        ["jianwan_000007", "看你签名，你也喜欢咖啡吗？"],
+        ["jianwan_000008", "是呀，每天一杯，不然没精神。"],
+        ["jianwan_000007", "有推荐的店吗？"],
+        ["jianwan_000008", "老街那家手冲不错，周末人少。"],
+        ["jianwan_000007", "那我周末去，拍照给你看。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000007", "jianwan_000009"],
+      "messages": [
+        ["jianwan_000007", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000009", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000007", "周末一般都怎么过？"],
+        ["jianwan_000009", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000007", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000009", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000008", "jianwan_000009"],
+      "messages": [
+        ["jianwan_000008", "最近有什么好听的歌推荐吗？"],
+        ["jianwan_000009", "有一首很旧的民谣，循环了一周。"],
+        ["jianwan_000008", "叫什么名字？"],
+        ["jianwan_000009", "回头把歌名发你，适合夜里听。"],
+        ["jianwan_000008", "谢谢，我先去下载。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000008", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000008", "你平时周末会去运动吗？"],
+        ["jianwan_000010", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000008", "太自律了，我只坚持了三天。"],
+        ["jianwan_000010", "找个人一起打卡会容易很多。"],
+        ["jianwan_000008", "那我们互相监督吧！"],
+        ["jianwan_000010", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000009", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000009", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000010", "什么类型的？我也想找点书看。"],
+        ["jianwan_000009", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000010", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000009", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000009", "jianwan_000011"],
+      "messages": [
+        ["jianwan_000009", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000011", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000009", "那就绕着湖走一圈。"],
+        ["jianwan_000011", "好，十分钟后楼下见。"],
+        ["jianwan_000009", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000010", "jianwan_000011"],
+      "messages": [
+        ["jianwan_000010", "最近有什么好看的电影吗？"],
+        ["jianwan_000011", "看了一部小成本的，剧情很温柔。"],
+        ["jianwan_000010", "叫什么？"],
+        ["jianwan_000011", "回头发你片名，适合安静的晚上看。"],
+        ["jianwan_000010", "好，我周五晚上就看。"],
+        ["jianwan_000011", "看完告诉我你的感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000010", "jianwan_000012"],
+      "messages": [
+        ["jianwan_000010", "看你签名，你也喜欢咖啡吗？"],
+        ["jianwan_000012", "是呀，每天一杯，不然没精神。"],
+        ["jianwan_000010", "有推荐的店吗？"],
+        ["jianwan_000012", "老街那家手冲不错，周末人少。"],
+        ["jianwan_000010", "那我周末去，拍照给你看。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000011", "jianwan_000012"],
+      "messages": [
+        ["jianwan_000011", "晚上好，今天过得怎么样？"],
+        ["jianwan_000012", "有点累，不过下班路上看到了很好看的晚霞。"],
+        ["jianwan_000011", "拍下来了吗？"],
+        ["jianwan_000012", "拍了，晚点发你。"],
+        ["jianwan_000011", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000011", "jianwan_000013"],
+      "messages": [
+        ["jianwan_000011", "最近有什么好听的歌推荐吗？"],
+        ["jianwan_000013", "有一首很旧的民谣，循环了一周。"],
+        ["jianwan_000011", "叫什么名字？"],
+        ["jianwan_000013", "回头把歌名发你，适合夜里听。"],
+        ["jianwan_000011", "谢谢，我先去下载。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000012", "jianwan_000013"],
+      "messages": [
+        ["jianwan_000012", "今天中午吃了什么？"],
+        ["jianwan_000013", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000012", "在哪？下次去试试。"],
+        ["jianwan_000013", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000012", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000012", "jianwan_000014"],
+      "messages": [
+        ["jianwan_000012", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000014", "什么类型的？我也想找点书看。"],
+        ["jianwan_000012", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000014", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000012", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000013", "jianwan_000014"],
+      "messages": [
+        ["jianwan_000013", "你有养宠物吗？"],
+        ["jianwan_000014", "没有，但很想养一只猫。"],
+        ["jianwan_000013", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000014", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000013", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000013", "jianwan_000015"],
+      "messages": [
+        ["jianwan_000013", "最近有什么好看的电影吗？"],
+        ["jianwan_000015", "看了一部小成本的，剧情很温柔。"],
+        ["jianwan_000013", "叫什么？"],
+        ["jianwan_000015", "回头发你片名，适合安静的晚上看。"],
+        ["jianwan_000013", "好，我周五晚上就看。"],
+        ["jianwan_000015", "看完告诉我你的感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000014", "jianwan_000015"],
+      "messages": [
+        ["jianwan_000014", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000015", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000014", "周末一般都怎么过？"],
+        ["jianwan_000015", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000014", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000015", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000014", "jianwan_000016"],
+      "messages": [
+        ["jianwan_000014", "晚上好，今天过得怎么样？"],
+        ["jianwan_000016", "有点累，不过下班路上看到了很好看的晚霞。"],
+        ["jianwan_000014", "拍下来了吗？"],
+        ["jianwan_000016", "拍了，晚点发你。"],
+        ["jianwan_000014", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000015", "jianwan_000016"],
+      "messages": [
+        ["jianwan_000015", "你平时周末会去运动吗？"],
+        ["jianwan_000016", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000015", "太自律了，我只坚持了三天。"],
+        ["jianwan_000016", "找个人一起打卡会容易很多。"],
+        ["jianwan_000015", "那我们互相监督吧！"],
+        ["jianwan_000016", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000015", "jianwan_000017"],
+      "messages": [
+        ["jianwan_000015", "今天中午吃了什么？"],
+        ["jianwan_000017", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000015", "在哪？下次去试试。"],
+        ["jianwan_000017", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000015", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000016", "jianwan_000017"],
+      "messages": [
+        ["jianwan_000016", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000017", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000016", "那就绕着湖走一圈。"],
+        ["jianwan_000017", "好，十分钟后楼下见。"],
+        ["jianwan_000016", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000016", "jianwan_000018"],
+      "messages": [
+        ["jianwan_000016", "你有养宠物吗？"],
+        ["jianwan_000018", "没有，但很想养一只猫。"],
+        ["jianwan_000016", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000018", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000016", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000017", "jianwan_000018"],
+      "messages": [
+        ["jianwan_000017", "看你签名，你也喜欢咖啡吗？"],
+        ["jianwan_000018", "是呀，每天一杯，不然没精神。"],
+        ["jianwan_000017", "有推荐的店吗？"],
+        ["jianwan_000018", "老街那家手冲不错，周末人少。"],
+        ["jianwan_000017", "那我周末去，拍照给你看。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000017", "jianwan_000019"],
+      "messages": [
+        ["jianwan_000017", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000019", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000017", "周末一般都怎么过？"],
+        ["jianwan_000019", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000017", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000019", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000018", "jianwan_000019"],
+      "messages": [
+        ["jianwan_000018", "最近有什么好听的歌推荐吗？"],
+        ["jianwan_000019", "有一首很旧的民谣，循环了一周。"],
+        ["jianwan_000018", "叫什么名字？"],
+        ["jianwan_000019", "回头把歌名发你，适合夜里听。"],
+        ["jianwan_000018", "谢谢，我先去下载。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000018", "jianwan_000020"],
+      "messages": [
+        ["jianwan_000018", "你平时周末会去运动吗？"],
+        ["jianwan_000020", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000018", "太自律了，我只坚持了三天。"],
+        ["jianwan_000020", "找个人一起打卡会容易很多。"],
+        ["jianwan_000018", "那我们互相监督吧！"],
+        ["jianwan_000020", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000019", "jianwan_000020"],
+      "messages": [
+        ["jianwan_000019", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000020", "什么类型的？我也想找点书看。"],
+        ["jianwan_000019", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000020", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000019", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000019", "jianwan_000021"],
+      "messages": [
+        ["jianwan_000019", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000021", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000019", "那就绕着湖走一圈。"],
+        ["jianwan_000021", "好，十分钟后楼下见。"],
+        ["jianwan_000019", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000020", "jianwan_000021"],
+      "messages": [
+        ["jianwan_000020", "最近有什么好看的电影吗？"],
+        ["jianwan_000021", "看了一部小成本的，剧情很温柔。"],
+        ["jianwan_000020", "叫什么？"],
+        ["jianwan_000021", "回头发你片名，适合安静的晚上看。"],
+        ["jianwan_000020", "好，我周五晚上就看。"],
+        ["jianwan_000021", "看完告诉我你的感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000020", "jianwan_000022"],
+      "messages": [
+        ["jianwan_000020", "看你签名，你也喜欢咖啡吗？"],
+        ["jianwan_000022", "是呀，每天一杯，不然没精神。"],
+        ["jianwan_000020", "有推荐的店吗？"],
+        ["jianwan_000022", "老街那家手冲不错，周末人少。"],
+        ["jianwan_000020", "那我周末去，拍照给你看。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000021", "jianwan_000022"],
+      "messages": [
+        ["jianwan_000021", "晚上好，今天过得怎么样？"],
+        ["jianwan_000022", "有点累，不过下班路上看到了很好看的晚霞。"],
+        ["jianwan_000021", "拍下来了吗？"],
+        ["jianwan_000022", "拍了，晚点发你。"],
+        ["jianwan_000021", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000021", "jianwan_000023"],
+      "messages": [
+        ["jianwan_000021", "最近有什么好听的歌推荐吗？"],
+        ["jianwan_000023", "有一首很旧的民谣，循环了一周。"],
+        ["jianwan_000021", "叫什么名字？"],
+        ["jianwan_000023", "回头把歌名发你，适合夜里听。"],
+        ["jianwan_000021", "谢谢，我先去下载。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000022", "jianwan_000023"],
+      "messages": [
+        ["jianwan_000022", "今天中午吃了什么？"],
+        ["jianwan_000023", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000022", "在哪？下次去试试。"],
+        ["jianwan_000023", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000022", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000022", "jianwan_000024"],
+      "messages": [
+        ["jianwan_000022", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000024", "什么类型的？我也想找点书看。"],
+        ["jianwan_000022", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000024", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000022", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000023", "jianwan_000024"],
+      "messages": [
+        ["jianwan_000023", "你有养宠物吗？"],
+        ["jianwan_000024", "没有，但很想养一只猫。"],
+        ["jianwan_000023", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000024", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000023", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000023", "jianwan_000025"],
+      "messages": [
+        ["jianwan_000023", "最近有什么好看的电影吗？"],
+        ["jianwan_000025", "看了一部小成本的，剧情很温柔。"],
+        ["jianwan_000023", "叫什么？"],
+        ["jianwan_000025", "回头发你片名，适合安静的晚上看。"],
+        ["jianwan_000023", "好，我周五晚上就看。"],
+        ["jianwan_000025", "看完告诉我你的感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000024", "jianwan_000025"],
+      "messages": [
+        ["jianwan_000024", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000025", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000024", "周末一般都怎么过？"],
+        ["jianwan_000025", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000024", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000025", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000024", "jianwan_000026"],
+      "messages": [
+        ["jianwan_000024", "晚上好，今天过得怎么样？"],
+        ["jianwan_000026", "有点累，不过下班路上看到了很好看的晚霞。"],
+        ["jianwan_000024", "拍下来了吗？"],
+        ["jianwan_000026", "拍了，晚点发你。"],
+        ["jianwan_000024", "好，期待。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000025", "jianwan_000026"],
+      "messages": [
+        ["jianwan_000025", "你平时周末会去运动吗？"],
+        ["jianwan_000026", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000025", "太自律了，我只坚持了三天。"],
+        ["jianwan_000026", "找个人一起打卡会容易很多。"],
+        ["jianwan_000025", "那我们互相监督吧！"],
+        ["jianwan_000026", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000025", "jianwan_000027"],
+      "messages": [
+        ["jianwan_000025", "今天中午吃了什么？"],
+        ["jianwan_000027", "楼下新开的面馆，汤很鲜。"],
+        ["jianwan_000025", "在哪？下次去试试。"],
+        ["jianwan_000027", "就在公司后门那条街，招牌是红色的。"],
+        ["jianwan_000025", "记下了，谢谢。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000026", "jianwan_000027"],
+      "messages": [
+        ["jianwan_000026", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000027", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000026", "那就绕着湖走一圈。"],
+        ["jianwan_000027", "好，十分钟后楼下见。"],
+        ["jianwan_000026", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000026", "jianwan_000028"],
+      "messages": [
+        ["jianwan_000026", "你有养宠物吗？"],
+        ["jianwan_000028", "没有，但很想养一只猫。"],
+        ["jianwan_000026", "猫挺治愈的，不过掉毛要有心理准备。"],
+        ["jianwan_000028", "哈哈，我先在朋友家云养一下。"],
+        ["jianwan_000026", "好主意，之后可以聊聊养猫心得。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000027", "jianwan_000028"],
+      "messages": [
+        ["jianwan_000027", "看你签名，你也喜欢咖啡吗？"],
+        ["jianwan_000028", "是呀，每天一杯，不然没精神。"],
+        ["jianwan_000027", "有推荐的店吗？"],
+        ["jianwan_000028", "老街那家手冲不错，周末人少。"],
+        ["jianwan_000027", "那我周末去，拍照给你看。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000027", "jianwan_000029"],
+      "messages": [
+        ["jianwan_000027", "你好呀，刚看到你的资料，签名挺有意思的。"],
+        ["jianwan_000029", "谢谢，你的也是，感觉我们兴趣有点像。"],
+        ["jianwan_000027", "周末一般都怎么过？"],
+        ["jianwan_000029", "出去走走或者窝在家看电影，你呢？"],
+        ["jianwan_000027", "我喜欢找家安静的店坐一下午。"],
+        ["jianwan_000029", "那下次可以一起去，互相推荐几家。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000028", "jianwan_000029"],
+      "messages": [
+        ["jianwan_000028", "最近有什么好听的歌推荐吗？"],
+        ["jianwan_000029", "有一首很旧的民谣，循环了一周。"],
+        ["jianwan_000028", "叫什么名字？"],
+        ["jianwan_000029", "回头把歌名发你，适合夜里听。"],
+        ["jianwan_000028", "谢谢，我先去下载。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000028", "jianwan_000001"],
+      "messages": [
+        ["jianwan_000028", "你平时周末会去运动吗？"],
+        ["jianwan_000001", "会的，早上跑步，下午补觉。"],
+        ["jianwan_000028", "太自律了，我只坚持了三天。"],
+        ["jianwan_000001", "找个人一起打卡会容易很多。"],
+        ["jianwan_000028", "那我们互相监督吧！"],
+        ["jianwan_000001", "好，从明天开始。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000029", "jianwan_000001"],
+      "messages": [
+        ["jianwan_000029", "我最近在看一本新书，晚上睡前读几页很放松。"],
+        ["jianwan_000001", "什么类型的？我也想找点书看。"],
+        ["jianwan_000029", "偏散文，很短，一篇就能读完。"],
+        ["jianwan_000001", "好，把书名给我，周末去书店找。"],
+        ["jianwan_000029", "好呀，读完我们交换感受。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000029", "jianwan_000002"],
+      "messages": [
+        ["jianwan_000029", "下班了吗？今天天气不错，要不要散个步？"],
+        ["jianwan_000002", "刚到家，不过可以出来透透气。"],
+        ["jianwan_000029", "那就绕着湖走一圈。"],
+        ["jianwan_000002", "好，十分钟后楼下见。"],
+        ["jianwan_000029", "收到。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000014", "jianwan_000001"],
+      "messages": [
+        ["jianwan_000014", "你好，看你签名说喜欢夜跑，我也是跑完步回家听黑胶的人。"],
+        ["jianwan_000014", "有空可以一起去江边跑一圈吗？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000018", "jianwan_000001"],
+      "messages": [
+        ["jianwan_000018", "嗨～看到你也喜欢看展，这周末有个插画展，要不要一起去？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000021", "jianwan_000001"],
+      "messages": [
+        ["jianwan_000021", "你、你好……我在练习主动打招呼，希望没有打扰到你。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000016", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000016", "嗨，看到你只喝三分糖奶茶，我也是！"],
+        ["jianwan_000016", "学校附近有家奶茶店，下次推荐给你。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000022", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000022", "你好呀，我常驻咖啡馆窗边，想找个一起探店的人。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000025", "jianwan_000010"],
+      "messages": [
+        ["jianwan_000025", "嗨！新开的游乐园听说过山车超刺激，想找人一起去～"]
+      ]
+    },
+    {
+      "between": ["jianwan_000017", "jianwan_000011"],
+      "messages": [
+        ["jianwan_000017", "你好，看你周末也爱往山里跑，我每天傍晚在操场跑步。"],
+        ["jianwan_000017", "要不要约一次山路越野？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000023", "jianwan_000011"],
+      "messages": [
+        ["jianwan_000023", "你好，看到你说去山里发呆，山顶的日落一定很好看吧？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000027", "jianwan_000011"],
+      "messages": [
+        ["jianwan_000027", "嗨，最近山里的银杏应该黄了，想找人一起去拍照。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000019", "jianwan_000012"],
+      "messages": [
+        ["jianwan_000019", "你好呀，我也是常去图书馆的人，期末一起自习吗？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000024", "jianwan_000012"],
+      "messages": [
+        ["jianwan_000024", "你好，看你刚上大一，学校篮球社在招新，有兴趣来看看吗？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000028", "jianwan_000012"],
+      "messages": [
+        ["jianwan_000028", "嗨，我每天六点沿江跑，看到你的资料想打个招呼。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000020", "jianwan_000013"],
+      "messages": [
+        ["jianwan_000020", "你好，看你喜欢在美术馆待一下午，最近有个摄影展还不错。"],
+        ["jianwan_000020", "看完可以一起去吃点东西。"]
+      ]
+    },
+    {
+      "between": ["jianwan_000026", "jianwan_000013"],
+      "messages": [
+        ["jianwan_000026", "你好，我下班后常绕湖散步，湖边那家美术馆你去过吗？"]
+      ]
+    },
+    {
+      "between": ["jianwan_000029", "jianwan_000013"],
+      "messages": [
+        ["jianwan_000029", "你好，图书馆靠窗第三排是我的老位置，看展累了可以来蹭座呀。"]
+      ]
+    }
+  ]
+}

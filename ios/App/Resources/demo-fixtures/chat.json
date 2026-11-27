@@ -1,0 +1,241 @@
+{
+  "_comment": "Chat page host copy, quick-interaction chips and the E4 more panel. Content is fake; chat.card messages are sent through real IM. No business backend, no payment, no location service.",
+  "safetyBanner": "@demo_fx_safety_banner",
+  "defaultSubtitle": "@demo_1v1_chat",
+  "inputBar": {
+    "placeholder": "@demo_fx_input_placeholder",
+    "sendText": "@demo_send"
+  },
+  "quickActions": [
+    {
+      "id": "image",
+      "label": "@demo_fx_image",
+      "icon": "demo_qa_image",
+      "action": "album"
+    },
+    {
+      "id": "call",
+      "label": "@demo_fx_audio_video_call",
+      "icon": "demo_qa_call",
+      "action": "call"
+    },
+    {
+      "id": "gift",
+      "label": "@demo_fx_gift",
+      "icon": "demo_qa_gift",
+      "primary": true,
+      "dot": true,
+      "action": "gift",
+      "kind": "gift",
+      "summary": "@demo_gift",
+      "payload": {
+        "giftRef": "star_candy",
+        "name": "星星糖",
+        "quantity": 1,
+        "displayValue": 9,
+        "displayUnit": "钻石"
+      }
+    },
+    {
+      "id": "emoji",
+      "label": "@demo_fx_emoji",
+      "icon": "demo_qa_emoji",
+      "action": "emoji"
+    },
+    {
+      "id": "more",
+      "label": "@demo_more",
+      "icon": "demo_qa_more",
+      "iconOn": "demo_qa_more_on",
+      "action": "more"
+    }
+  ],
+  "quickChips": [
+    {
+      "id": "pat",
+      "label": "@demo_fx_pat",
+      "icon": "demo_chip_pat",
+      "kind": "pat",
+      "summary": "@demo_pat",
+      "payload": {
+        "text": "摸了摸你的头",
+        "fixtureRef": "pat_default"
+      }
+    },
+    {
+      "id": "listen",
+      "label": "@demo_fx_listen_together",
+      "icon": "demo_chip_listen",
+      "kind": "listen",
+      "summary": "@demo_listen_together_2",
+      "payload": {
+        "trackRef": "demo_track_evening",
+        "title": "晚风",
+        "durationMs": 214000
+      }
+    },
+    {
+      "id": "photoSwap",
+      "label": "@demo_fx_swap_photos",
+      "icon": "demo_chip_swap",
+      "kind": "photoSwap",
+      "summary": "@demo_photo_swap",
+      "payload": {
+        "text": "邀请你交换照片",
+        "fixtureRef": "swap_sample_city"
+      }
+    },
+    {
+      "id": "rps",
+      "label": "@demo_fx_rock_paper_scissors",
+      "icon": "demo_chip_rps",
+      "kind": "rps",
+      "summary": "@demo_rock_paper_scissors",
+      "payload": {
+        "game": "rps",
+        "rollOnSend": true
+      }
+    }
+  ],
+  "morePanel": [
+    {
+      "id": "location",
+      "label": "@demo_fx_location",
+      "tile": "demo_fn_location",
+      "action": "card",
+      "kind": "location",
+      "summary": "@demo_location",
+      "payload": {
+        "title": "江边那家咖啡馆 · 滨江路",
+        "address": "南山区滨江路 88 号（演示地址）",
+        "fixtureRef": "map_sample_river"
+      }
+    },
+    {
+      "id": "burn",
+      "label": "@demo_fx_burn_after_reading",
+      "tile": "demo_fn_burn",
+      "action": "card",
+      "kind": "burn",
+      "summary": "@demo_burn_after_reading",
+      "payload": {
+        "fixtureRef": "burn_sample_city",
+        "viewSeconds": 5
+      }
+    },
+    {
+      "id": "listen",
+      "label": "@demo_fx_listen_together",
+      "tile": "demo_fn_listen",
+      "badge": "NEW",
+      "action": "card",
+      "kind": "listen",
+      "summary": "@demo_listen_together_2",
+      "payload": {
+        "trackRef": "demo_track_evening",
+        "title": "晚风",
+        "durationMs": 214000
+      }
+    },
+    {
+      "id": "game",
+      "label": "@demo_fx_mini_games",
+      "tile": "demo_fn_game",
+      "action": "card",
+      "kind": "dice",
+      "summary": "@demo_dice",
+      "payload": {
+        "game": "dice",
+        "rollOnSend": true
+      }
+    },
+    {
+      "id": "redpacket",
+      "label": "@demo_fx_red_packet",
+      "tile": "demo_fn_redpacket",
+      "action": "card",
+      "kind": "redpacket",
+      "summary": "@demo_red_packet",
+      "payload": {
+        "greeting": "@demo_red_packet_greeting",
+        "displayValue": 66,
+        "displayUnit": "@demo_fx_diamond_unit"
+      }
+    },
+    {
+      "id": "quiz",
+      "label": "@demo_fx_crush_test",
+      "tile": "demo_fn_quiz",
+      "action": "card",
+      "kind": "quiz",
+      "summary": "@demo_crush_quiz",
+      "payload": {
+        "question": "第一次见面，你更想去咖啡馆还是去看展？",
+        "optionA": "去咖啡馆",
+        "optionB": "去看展",
+        "round": 4
+      }
+    },
+    {
+      "id": "watch",
+      "label": "@demo_fx_watch_together",
+      "tile": "demo_fn_watch",
+      "action": "notice",
+      "notice": "@demo_fx_watch_together_notice"
+    },
+    {
+      "id": "album",
+      "label": "@demo_fx_private_album",
+      "tile": "demo_fn_album",
+      "action": "notice",
+      "notice": "@demo_fx_private_album_notice"
+    }
+  ],
+  "chatSetting": {
+    "title": "@demo_chat_settings",
+    "profileTags": [],
+    "intimacyLabel": "@demo_fx_intimacy_label",
+    "intimacyBadge": "Lv.3",
+    "backgroundLabel": "@demo_fx_bubble_background",
+    "nicknameLabel": "@demo_custom_nickname",
+    "nicknameValue": "小晚",
+    "reportLabel": "@demo_report_them",
+    "footer": "@demo_fx_chat_setting_footer",
+    "mockNotice": "@demo_demo_mock_demo_item_no_business_request"
+  },
+  "giftPanel": {
+    "title": "@demo_fx_choose_gift",
+    "sendText": "@demo_fx_give",
+    "comboWindowMs": 2600,
+    "gifts": [
+      {
+        "ref": "star_candy",
+        "name": "星星糖",
+        "value": 9,
+        "unit": "@demo_fx_diamond_unit",
+        "icon": "demo_ic_gift_star"
+      },
+      {
+        "ref": "autumn_tea",
+        "name": "秋日奶茶",
+        "value": 52,
+        "unit": "@demo_fx_diamond_unit",
+        "icon": "demo_ic_gift_cup"
+      },
+      {
+        "ref": "little_heart",
+        "name": "小心心",
+        "value": 18,
+        "unit": "@demo_fx_diamond_unit",
+        "icon": "demo_ic_heart_big"
+      },
+      {
+        "ref": "mystery_box",
+        "name": "神秘礼盒",
+        "value": 66,
+        "unit": "@demo_fx_diamond_unit",
+        "icon": "demo_ic_gift"
+      }
+    ]
+  }
+}

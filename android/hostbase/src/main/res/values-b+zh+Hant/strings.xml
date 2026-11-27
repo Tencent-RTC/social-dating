@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the host-app string table (base module); edit values here, keep keys identical across languages and with iOS. -->
+<resources>
+    <string name="demo_back">返回</string>
+    <string name="demo_more">更多</string>
+    <string name="demo_home">首頁</string>
+    <string name="demo_me">我的</string>
+    <string name="demo_call_sdk_is_not_ready_please_log">通話暫時無法使用，請稍後再試</string>
+    <string name="demo_cancel">取消</string>
+    <string name="demo_verified">實名</string>
+    <string name="demo_appearance">外觀</string>
+    <string name="demo_follow_system">跟隨系統</string>
+    <string name="demo_light">淺色</string>
+    <string name="demo_dark">深色</string>
+    <string name="demo_recommended_for_you">爲你推薦</string>
+    <string name="demo_palette_violet">霓虹紫</string>
+    <string name="demo_palette_neon">霓虹夜</string>
+    <string name="demo_palette_acid">潮酷熒光</string>
+    <string name="demo_palette_candy">甜心粉</string>
+    <string name="demo_palette_coral">日落珊瑚</string>
+    <string name="demo_palette_rouge">胭脂玫</string>
+    <string name="demo_palette_peach">蜜桃橙</string>
+    <string name="demo_palette_honey">蜜糖金</string>
+    <string name="demo_loading">載入中…</string>
+    <string name="demo_load_failed_tap_to_retry">載入失敗，點擊重試</string>
+    <string name="demo_nothing_here_yet">暫無內容</string>
+    <string name="demo_distance_km">%1$skm</string>
+    <string name="demo_height_cm">%1$scm</string>
+    <string name="demo_age_years">%1$s歲</string>
+    <string name="demo_language">語言</string>
+</resources>

@@ -1,0 +1,155 @@
+{
+ "schemaVersion": 1,
+ "meta": {
+  "dataSource": "demo_mock",
+  "note": "fixtureId 只用于本地展示；聊天/通话必须使用 boundUserId（可通过 tools/seed_demo_data.py 导入 IM 的 jianwan_* 演示账号，见 tools/seed_demo_data.json）。未绑定时提示未配置演示账号，禁止向 fixtureId 或随机 ID 发送消息。",
+  "bindingRule": "boundUserId 必须是 IM 中已存在的演示账号，与 fixtureId 不相等也不互相推导；每个演示账号都有一条绑定。首页在运行时过滤掉当前登录账号，所以登录账号看不到自己的卡片，也不会和自己聊天。"
+ },
+ "bindings": [
+  {
+   "fixtureId": "fx_u000001",
+   "displayName": "阿野",
+   "boundUserId": "jianwan_000001"
+  },
+  {
+   "fixtureId": "fx_wanfeng",
+   "displayName": "晚风有信",
+   "boundUserId": "jianwan_000002"
+  },
+  {
+   "fixtureId": "fx_youzi",
+   "displayName": "柚子汽水",
+   "boundUserId": "jianwan_000003"
+  },
+  {
+   "fixtureId": "fx_shiqi",
+   "displayName": "拾柒",
+   "boundUserId": "jianwan_000004"
+  },
+  {
+   "fixtureId": "fx_xiaoman",
+   "displayName": "小满",
+   "boundUserId": "jianwan_000005"
+  },
+  {
+   "fixtureId": "fx_abu",
+   "displayName": "阿布",
+   "boundUserId": "jianwan_000006"
+  },
+  {
+   "fixtureId": "fx_xiaweimian",
+   "displayName": "夏未眠",
+   "boundUserId": "jianwan_000007"
+  },
+  {
+   "fixtureId": "fx_tangtang",
+   "displayName": "棠棠不吃糖",
+   "boundUserId": "jianwan_000008"
+  },
+  {
+   "fixtureId": "fx_yehang",
+   "displayName": "夜航船",
+   "boundUserId": "jianwan_000009"
+  },
+  {
+   "fixtureId": "fx_u000010",
+   "displayName": "奶糖不加冰",
+   "boundUserId": "jianwan_000010"
+  },
+  {
+   "fixtureId": "fx_u000011",
+   "displayName": "山野有风",
+   "boundUserId": "jianwan_000011"
+  },
+  {
+   "fixtureId": "fx_u000012",
+   "displayName": "栗子小熊",
+   "boundUserId": "jianwan_000012"
+  },
+  {
+   "fixtureId": "fx_u000013",
+   "displayName": "半夏",
+   "boundUserId": "jianwan_000013"
+  },
+  {
+   "fixtureId": "fx_u000014",
+   "displayName": "唱针落下",
+   "boundUserId": "jianwan_000014"
+  },
+  {
+   "fixtureId": "fx_u000015",
+   "displayName": "卷卷不愁",
+   "boundUserId": "jianwan_000015"
+  },
+  {
+   "fixtureId": "fx_u000016",
+   "displayName": "云朵没有名字",
+   "boundUserId": "jianwan_000016"
+  },
+  {
+   "fixtureId": "fx_u000017",
+   "displayName": "风跑得比我快",
+   "boundUserId": "jianwan_000017"
+  },
+  {
+   "fixtureId": "fx_u000018",
+   "displayName": "不睡觉的猫",
+   "boundUserId": "jianwan_000018"
+  },
+  {
+   "fixtureId": "fx_u000019",
+   "displayName": "圆框小姐",
+   "boundUserId": "jianwan_000019"
+  },
+  {
+   "fixtureId": "fx_u000020",
+   "displayName": "下班就关机",
+   "boundUserId": "jianwan_000020"
+  },
+  {
+   "fixtureId": "fx_u000021",
+   "displayName": "小鹿乱撞",
+   "boundUserId": "jianwan_000021"
+  },
+  {
+   "fixtureId": "fx_u000022",
+   "displayName": "薄荷汽水味",
+   "boundUserId": "jianwan_000022"
+  },
+  {
+   "fixtureId": "fx_u000023",
+   "displayName": "海盐味的风",
+   "boundUserId": "jianwan_000023"
+  },
+  {
+   "fixtureId": "fx_u000024",
+   "displayName": "三分线外",
+   "boundUserId": "jianwan_000024"
+  },
+  {
+   "fixtureId": "fx_u000025",
+   "displayName": "丸子今天开心",
+   "boundUserId": "jianwan_000025"
+  },
+  {
+   "fixtureId": "fx_u000026",
+   "displayName": "阿屿",
+   "boundUserId": "jianwan_000026"
+  },
+  {
+   "fixtureId": "fx_u000027",
+   "displayName": "秋天的第七片叶",
+   "boundUserId": "jianwan_000027"
+  },
+  {
+   "fixtureId": "fx_u000028",
+   "displayName": "沿江六点",
+   "boundUserId": "jianwan_000028"
+  },
+  {
+   "fixtureId": "fx_u000029",
+   "displayName": "靠窗第三排",
+   "boundUserId": "jianwan_000029"
+  }
+ ]
+}

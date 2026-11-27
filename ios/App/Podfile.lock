@@ -1,0 +1,145 @@
+PODS:
+  - AlbumPicker (1.0.8):
+    - AlbumPickerCore (= 1.0.8)
+  - AlbumPickerCore (1.0.8):
+    - TXIMSDK_Plus_iOS_XCFramework
+  - AtomicX (1.0.0):
+    - AtomicXCore
+    - Kingfisher
+    - SnapKit
+    - TXIMSDK_Plus_iOS_XCFramework (>= 8.8.7357)
+    - TXLiteAVSDK_Professional
+  - AtomicXCore (4.3.11):
+    - AtomicXCore/Core (= 4.3.11)
+    - RTCRoomEngine/Professional (>= 4.3.11)
+    - TXIMSDK_Plus_iOS_XCFramework (>= 9.0.7661)
+    - TXLiteAVSDK_Professional (>= 13.4.21067)
+  - AtomicXCore/Core (4.3.11):
+    - RTCRoomEngine/Professional (>= 4.3.11)
+    - TXIMSDK_Plus_iOS_XCFramework (>= 9.0.7661)
+    - TXLiteAVSDK_Professional (>= 13.4.21067)
+  - Kingfisher (8.12.0)
+  - Masonry (1.1.0)
+  - MMKV (2.4.0):
+    - MMKVCore (~> 2.4.0)
+  - MMKVCore (2.4.3)
+  - RTCRoomEngine/Professional (4.3.11):
+    - TXIMSDK_Plus_iOS_XCFramework (>= 8.4.6676)
+    - TXLiteAVSDK_Professional (>= 12.8.0.19666)
+  - SDWebImage (5.21.7):
+    - SDWebImage/Core (= 5.21.7)
+  - SDWebImage/Core (5.21.7)
+  - SnapKit (5.7.1)
+  - TUICallKit/Professional (1.0.0):
+    - AtomicX
+    - AtomicXCore
+    - RTCRoomEngine/Professional
+    - SDWebImage
+    - SnapKit
+    - TUICore
+    - TXLiteAVSDK_Professional
+  - TUIChatKit (1.0.0):
+    - AlbumPicker
+    - AtomicX
+    - AtomicXCore
+    - Kingfisher
+    - Masonry
+    - SnapKit
+  - TUICore (9.0.7660):
+    - SDWebImage
+    - TUICore/ImSDK_Plus (= 9.0.7660)
+  - TUICore/Base (9.0.7660):
+    - SDWebImage
+  - TUICore/ImSDK_Plus (9.0.7660):
+    - SDWebImage
+    - TUICore/Base
+    - TXIMSDK_Plus_iOS_XCFramework
+  - TUIHomeKit (1.0.0):
+    - AtomicX
+    - AtomicXCore
+    - TUIHostBase
+  - TUIHostBase (1.0.0):
+    - AtomicX
+    - SDWebImage
+  - TUIMineKit (1.0.0):
+    - AtomicX
+    - AtomicXCore
+    - TUIChatKit
+    - TUIHostBase
+  - TXIMSDK_Plus_iOS_XCFramework (9.0.7667)
+  - TXLiteAVSDK_Professional (13.5.21355):
+    - TXLiteAVSDK_Professional/Professional (= 13.5.21355)
+  - TXLiteAVSDK_Professional/Professional (13.5.21355)
+
+DEPENDENCIES:
+  - AlbumPicker (= 1.0.8)
+  - AtomicX (from `../AtomicX`)
+  - AtomicXCore (= 4.3.11)
+  - Kingfisher (= 8.12.0)
+  - MMKV (= 2.4.0)
+  - RTCRoomEngine/Professional (= 4.3.11)
+  - SDWebImage (= 5.21.7)
+  - SnapKit (= 5.7.1)
+  - TUICallKit/Professional (from `../TUICallKit`)
+  - TUIChatKit (from `../TUIChatKit`)
+  - TUICore (= 9.0.7660)
+  - TUIHomeKit (from `../TUIHomeKit`)
+  - TUIHostBase (from `../TUIHostBase`)
+  - TUIMineKit (from `../TUIMineKit`)
+  - TXIMSDK_Plus_iOS_XCFramework (= 9.0.7667)
+  - TXLiteAVSDK_Professional (= 13.5.21355)
+
+SPEC REPOS:
+  trunk:
+    - AlbumPicker
+    - AlbumPickerCore
+    - AtomicXCore
+    - Kingfisher
+    - Masonry
+    - MMKV
+    - MMKVCore
+    - RTCRoomEngine
+    - SDWebImage
+    - SnapKit
+    - TUICore
+    - TXIMSDK_Plus_iOS_XCFramework
+    - TXLiteAVSDK_Professional
+
+EXTERNAL SOURCES:
+  AtomicX:
+    :path: "../AtomicX"
+  TUICallKit:
+    :path: "../TUICallKit"
+  TUIChatKit:
+    :path: "../TUIChatKit"
+  TUIHomeKit:
+    :path: "../TUIHomeKit"
+  TUIHostBase:
+    :path: "../TUIHostBase"
+  TUIMineKit:
+    :path: "../TUIMineKit"
+
+SPEC CHECKSUMS:
+  AlbumPicker: 812fc5e6aeba0c0877bbc125e030ca1efbfdf109
+  AlbumPickerCore: 6b2819051b1b30e0764c271924f22181226cec14
+  AtomicX: 7520bfee7238a74e80bbe0e0bb72b15f35070726
+  AtomicXCore: 8ae1ee848b92cff7d06ced339342e0aa6bd32fea
+  Kingfisher: 64e06c7d1a9851ecff9d1b14f92ad01141263dae
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MMKV: 86859fdfa2b0b21db1fd6e48788474a6416a2c77
+  MMKVCore: 065b61d4f942d3b6e1c913c378c120934f315ee4
+  RTCRoomEngine: 27728def998534f35d48dfa59bac60e74219ea3c
+  SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  TUICallKit: b9fbf668a0fd0cf9624fe32a9016dd89278441da
+  TUIChatKit: f5ddd4c46ae4177c880ae1975ccd064e44c3be53
+  TUICore: f23efd42114613206437cfd1cd6934c30d232d3f
+  TUIHomeKit: 4a4f6e0956c54074cae086c4394fefb84815cfed
+  TUIHostBase: 01b862ea57d9c341f0fe3c9607d57cfd55b57cb7
+  TUIMineKit: 518d1aa04d889aec19e9de6ec447af26cade1280
+  TXIMSDK_Plus_iOS_XCFramework: 7776eb7a18b71a4b9daae8f43b230e9fa06cfc24
+  TXLiteAVSDK_Professional: 914aa2e59545c8cdff80ab70c1bc8191c683ecfc
+
+PODFILE CHECKSUM: d64f252be4f26cf53257e0c64ca4ae0112be3bdf
+
+COCOAPODS: 1.16.2
